@@ -71,6 +71,7 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({
     { value: "tr", label: "🇹🇷 Türkçe" }, // Turkish
     { value: "uk", label: "🇺🇦 Українська" }, // Ukrainian
     { value: "ur", label: "🇵🇰 اردو" }, // Urdu
+    { value: "uz", label: "🇺🇿 Oʻzbek" }, // Uzbek
     { value: "vi", label: "🇻🇳 Tiếng Việt" }, // Vietnamese
     { value: "zh-CN", label: "🇨🇳 中文 (简体)" }, // Chinese (Simplified)
     { value: "zh-TW", label: "🇹🇼 正體中文 (繁體)" }, // Chinese (Traditional)
@@ -103,7 +104,7 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({
   ));
 
   return (
-    <div className="absolute h-full w-full z-20 bg-primary-800">
+    <div className="flex absolute h-full w-full z-20 bg-primary-800">
       <div className="block h-full w-full">
         <div className="block h-6 w-full border-b border-primary-700 sticky top-0 bg-primary-800">
           <button
